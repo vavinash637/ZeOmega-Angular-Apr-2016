@@ -1,0 +1,12 @@
+<section>
+    <div class="icon" ng-repeat="bug in (data.list | filter:searchBug | orderBy:sortBug:sortBugOrder)">
+    <div >
+        <div class="bugName" ng-class="{closed :bug.isClosed}" ng-click="data.toggle(bug)">{{bug.name | trimText:30}}</div>
+        <div class="details">
+            <div class="datetime">{{bug.createdAt | elapsed}}</div>
+            <br>
+            <div><a href="#/detail/{{bug.id}}">Details</a></div>
+        </div>
+    </div>
+    </div>
+</section>

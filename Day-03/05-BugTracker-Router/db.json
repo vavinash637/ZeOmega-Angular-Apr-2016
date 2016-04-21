@@ -1,12 +1,6 @@
 {
   "bugs": [
     {
-      "id": 7,
-      "name": "JSON server is very slow",
-      "isClosed": true,
-      "createdAt": "2016-02-02T05:04:28.176Z"
-    },
-    {
       "id": 8,
       "name": "$http is not very dependable",
       "isClosed": false,
@@ -29,6 +23,36 @@
       "name": "This is a brand new bug",
       "isClosed": false,
       "createdAt": "2016-04-04T12:10:13.589Z"
+    },
+    {
+      "id": 12,
+      "name": "Test",
+      "isClosed": false,
+      "createdAt": "2016-04-20T09:29:46.247Z"
+    },
+    {
+      "id": 13,
+      "name": "test2",
+      "isClosed": false,
+      "createdAt": "2016-04-20T11:59:34.630Z"
+    },
+    {
+      "id": 14,
+      "name": "this is a brand new test",
+      "isClosed": false,
+      "createdAt": "2016-04-20T13:13:50.607Z"
+    },
+    {
+      "id": 15,
+      "name": "[Default Bug]",
+      "isClosed": false,
+      "createdAt": "2016-04-20T13:14:00.428Z"
+    },
+    {
+      "id": 16,
+      "name": "[Default Bug]",
+      "isClosed": false,
+      "createdAt": "2016-04-20T13:14:28.362Z"
     }
   ],
   "employees": [
